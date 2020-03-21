@@ -22,7 +22,7 @@ body {
    
   }
   
-  li {
+  #nav_list li {
     float: right;
     padding-top:14px ;
   }
@@ -64,14 +64,14 @@ body {
 h3{
   text-align: center;
 } 
-ul {
+.service ul {
   display: flex;
   margin-left: 70px;
   padding-top: 80px;
   align-content: center;
 }
 
-li {
+.services li {
   flex: 33.33%;
   padding: 5px;
   text-align: center;
@@ -159,12 +159,15 @@ li {
 }
 .footer_widget  li{
   list-style-type:none;
-  float: left;
+ 
+  margin-right: 20px;
+ display: block;
 }
+
 .rights{
   text-align: center;
 }
-.f{
+.f{  
   background-color:black;
   color:white;
 }
